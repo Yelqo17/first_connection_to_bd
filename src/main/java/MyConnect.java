@@ -1,3 +1,5 @@
+package main.java;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -7,7 +9,6 @@ public class MyConnect {
     private final String url;
     private final String user;
     private final String password;
-
     public MyConnect(){
         url = "jdbc:postgresql://localhost:5432/postgres";
         user = "postgres";
