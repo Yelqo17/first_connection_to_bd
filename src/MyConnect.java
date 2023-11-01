@@ -7,7 +7,8 @@ public class MyConnect {
     private final String url;
     private final String user;
     private final String password;
-    public MyConnect() {
+
+    public MyConnect(){
         url = "jdbc:postgresql://localhost:5432/postgres";
         user = "postgres";
         password = "pig51423";
